@@ -1,0 +1,143 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #E8E8E8;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 16px;
+  margin-block-end: 2em;
+}
+
+h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+  font-size: 24px;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 2em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 12px;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.banner {
+  background-image: url("../images/space_banner.jpeg");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  color: #F8F8FF;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5)
+}
+
+.btn-primary {
+  text-decoration: none;
+  background-color: #1DB954;
+  color: #F8F8FF;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid #999999;
+  font-weight: lighter;
+  opacity: 1;
+  text-shadow: none;
+}
+
+.btn-primary:hover {
+  background-color: rgb(30, 215, 96);
+  color: rgb(255, 255, 255);
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  font-family: Raleway, Helvetica, sans-serif;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.card img {
+  height: 100px;
+  border-radius: 5px;
+}
+
+.card img:hover {
+  filter: blur(0);
+  transition: 333ms ease-out;
+  opacity: 0.5;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #082031;
+}
+
+.footer p {
+    color: #F8F8FF;
+    text-align: center;
+    margin-block-start: 2em;
+}
+
+.footer a {
+    font-size: 40px;
+    color: #3A8696;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.fa-fw {
+    text-align: center;
+    width: 5.25em;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+i {
+    font-style: italic;
+}
